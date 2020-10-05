@@ -129,4 +129,8 @@
     <value>C:\Users\marcu\Documents\Code\ExerciseXML\</value>
     <comment>main xml doc repository</comment>
   </data>
+  <data name="XMLRuleCheckLoc" xml:space="preserve">
+    <value>C:\Users\marcu\Documents\Code\ExerciseXML\RuleSet\JSON\RulestoCheck</value>
+    <comment>Rule CheckLoc</comment>
+  </data>
 </root>

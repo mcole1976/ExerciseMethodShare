@@ -67,5 +67,22 @@ namespace ExerciseMethodShare
 
             return rb.ToArray();
         }
+
+        public static ResultBase[] CreateRuleSetList()
+        {
+            List<ResultBase> rb = new List<ResultBase>();
+            string fileLoc = Properties.Resources.XMLRuleCheckLoc;
+
+            FileSystemInfo fileInfo =
+                new DirectoryInfo(fileLoc).GetFileSystemInfos().OrderBy(fi => fi.CreationTime).First();
+
+            fileLoc = fileInfo.ToString();
+
+            string JSON = File.ReadAllText(fileLoc);
+            rb = JsonSerializer.Deserialize<List<ResultBase>>(JSON);
+            rb = rb.Distinct().ToList();
+
+            return rb.ToArray();
+        }
     }
 }

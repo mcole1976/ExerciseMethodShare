@@ -86,5 +86,14 @@ namespace ExerciseMethodShare.Properties {
                 return ResourceManager.GetString("XMLMainXMLLocation", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to C:\Users\marcu\Documents\Code\ExerciseXML\RuleSet\JSON\RulestoCheck.
+        /// </summary>
+        internal static string XMLRuleCheckLoc {
+            get {
+                return ResourceManager.GetString("XMLRuleCheckLoc", resourceCulture);
+            }
+        }
     }
 }

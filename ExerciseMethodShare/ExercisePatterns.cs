@@ -90,7 +90,7 @@ namespace ExerciseMethodShare
             WorkOut[] exs;
 
             List<WorkOut> w = new List<WorkOut>();
-            string loc = Properties.Resources.XMLMainXMLLocation;
+            string loc = Properties.Resources.XMLLibrary;
             loc = loc + @"\" + xmlLoc + ".xml";
             XElement xDoc = XElement.Load(loc);
             IEnumerable<XElement> childList =

@@ -79,6 +79,15 @@ namespace ExerciseMethodShare.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to C:\Users\marcu\Documents\Code\ExerciseXML\WorkoutLibrary\.
+        /// </summary>
+        internal static string XMLLibrary {
+            get {
+                return ResourceManager.GetString("XMLLibrary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to C:\Users\marcu\Documents\Code\ExerciseXML\.
         /// </summary>
         internal static string XMLMainXMLLocation {

@@ -125,6 +125,9 @@
     <value>C:\Users\marcu\Pictures\exercises\</value>
     <comment>main loc for files</comment>
   </data>
+  <data name="XMLLibrary" xml:space="preserve">
+    <value>C:\Users\marcu\Documents\Code\ExerciseXML\WorkoutLibrary\</value>
+  </data>
   <data name="XMLMainXMLLocation" xml:space="preserve">
     <value>C:\Users\marcu\Documents\Code\ExerciseXML\</value>
     <comment>main xml doc repository</comment>
